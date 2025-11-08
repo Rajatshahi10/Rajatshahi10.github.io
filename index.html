@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name - Portfolio</title>
+    
+    <title>[Your Full Name] - Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <h1>Your Name</h1>
+        <h1>[Your Full Name]</h1>
 
         <ul id="nav-links">
           <li><a href="#about">About</a></li>
@@ -27,15 +33,15 @@
 
     <main>
       <section id="hero">
-        <h2>Aspiring Software Developer</h2>
-        <p>Welcome to my portfolio! I build things for the web.</p>
+        <h2>[Your Title e.g., Software Developer / Frontend Engineer]</h2>
+        <p>[A short, catchy sentence about what you do.]</p>
       </section>
 
       <section id="about">
         <h2>About Me</h2>
         <p>
-          Hello! I'm a passionate developer learning to build modern web
-          applications. I have experience with... (Write a short bio here)
+          [Write 2-3 sentences about yourself. What technologies are you 
+          passionate about? What are you learning? What are your goals?]
         </p>
       </section>
 
@@ -44,7 +50,7 @@
         <p>
           I'm always open to discussing new projects or opportunities. Feel free
           to reach out using the form below, or just email me at
-          <a href="mailto:your.email@example.com">your.email@example.com</a>.
+          <a href="mailto:[your.email@gmail.com]">[your.email@gmail.com]</a>.
         </p>
 
         <form
@@ -70,60 +76,68 @@
           <button type="submit" class="submit-btn">Send Message</button>
         </form>
 
-        <p>You can also find me on <a href="#">LinkedIn</a>.</p>
+        <p>You can also find me on <a href="[Your LinkedIn URL]">LinkedIn</a>.</p>
       </section>
 
       <section id="projects">
         <h2>My Projects</h2>
 
         <div class="project-container">
+          
           <div class="project-card">
-            <h3>Project 1 Title</h3>
+            <h3>[Project 1 Title]</h3>
+            
+            <img src="images/project-1.png" alt="Screenshot of [Project 1 Title]">
+
             <p>
-              A brief description of your project. What did it do? What
-              technologies did you use?
+              [A brief description of your project. What did it do? 
+              What technologies did you use?]
             </p>
 
             <div class="project-links">
-              <a href="#" class="code-link">View Code</a>
-              <a href="#">Live Demo</a>
+              <a href="[Link to your code on GitHub]" class="code-link">View Code</a>
+              <a href="[Link to your live demo]">Live Demo</a>
             </div>
           </div>
 
           <div class="project-card">
-            <h3>Project 2 Title</h3>
-            <p>A brief description of your project.</p>
+            <h3>[Project 2 Title]</h3>
+            
+            <img src="images/project-2.png" alt="Screenshot of [Project 2 Title]">
+
+            <p>[A brief description of your project.]</p>
 
             <div class="project-links">
-              <a href="#" class="code-link">View Code</a>
-              <a href="#">Live Demo</a>
+              <a href="[Link to your code on GitHub]" class="code-link">View Code</a>
+              <a href="[Link to your live demo]">Live Demo</a>
             </div>
           </div>
 
           <div class="project-card">
-            <h3>Project 3 Title (Add one!)</h3>
-            <p>A brief description of your project.</p>
+            <h3>[Project 3 Title]</h3>
+            
+            <img src="images/project-3.png" alt="Screenshot of [Project 3 Title]">
+
+            <p>[A brief description of your project.]</p>
 
             <div class="project-links">
-              <a href="#" class="code-link">View Code</a>
-              <a href="#">Live Demo</a>
+              <a href="[Link to your code on GitHub]" class="code-link">View Code</a>
+              <a href="[Link to your live demo]">Live Demo</a>
             </div>
           </div>
+
         </div>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 Your Name</p>
+      <p>&copy; 2025 [Your Full Name]</p>
     </footer>
+
     <script>
-      // Get the button and the navigation links
       const menuToggle = document.getElementById("menu-toggle");
       const navLinks = document.getElementById("nav-links");
-
-      // Add a 'click' event listener to the button
       menuToggle.addEventListener("click", () => {
-        // Toggle the '.show' class on the nav links list
         navLinks.classList.toggle("show");
       });
     </script>
