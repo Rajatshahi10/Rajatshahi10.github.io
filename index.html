@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Your Name</h1>
+
+        <ul id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h2>Aspiring Software Developer</h2>
+        <p>Welcome to my portfolio! I build things for the web.</p>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm a passionate developer learning to build modern web
+          applications. I have experience with... (Write a short bio here)
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>
+          I'm always open to discussing new projects or opportunities. Feel free
+          to reach out using the form below, or just email me at
+          <a href="mailto:your.email@example.com">your.email@example.com</a>.
+        </p>
+
+        <form
+          id="contact-form"
+          action="httpsimg.shields.io/badge/your-endpoint-blue"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+
+        <p>You can also find me on <a href="#">LinkedIn</a>.</p>
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+          <div class="project-card">
+            <h3>Project 1 Title</h3>
+            <p>
+              A brief description of your project. What did it do? What
+              technologies did you use?
+            </p>
+
+            <div class="project-links">
+              <a href="#" class="code-link">View Code</a>
+              <a href="#">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Project 2 Title</h3>
+            <p>A brief description of your project.</p>
+
+            <div class="project-links">
+              <a href="#" class="code-link">View Code</a>
+              <a href="#">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Project 3 Title (Add one!)</h3>
+            <p>A brief description of your project.</p>
+
+            <div class="project-links">
+              <a href="#" class="code-link">View Code</a>
+              <a href="#">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Your Name</p>
+    </footer>
+    <script>
+        // Get the button and the navigation links
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        // Add a 'click' event listener to the button
+        menuToggle.addEventListener('click', () => {
+            // Toggle the '.show' class on the nav links list
+            navLinks.classList.toggle('show');
+        });
+    </script>
+  </body>
+</html>
